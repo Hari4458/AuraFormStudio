@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraForm Studio - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-glow">
+                    <span class="logo-text">AuraForm Studio</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="page-title">Summon the Design Hunters</h1>
+                <p class="page-subtitle">Ready to embark on your creative quest?</p>
+                <div class="breadcrumb">
+                    <a href="home.html">Home</a> <span>/</span> <span>Contact</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="contact-intro">
+                        <h2>Begin Your Design Quest</h2>
+                        <p>Every legendary journey starts with a single message. Share your vision with us, and let's forge something extraordinary together.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Summon Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <span>Monday - Friday: 9AM - 6PM</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Send a Scroll</h4>
+                                <p>hello@auraformstudio.com</p>
+                                <span>We respond within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Our Sanctuary</h4>
+                                <p>Design Realm, Creative District</p>
+                                <span>Virtual meetings available</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h3>Join Our Guild</h3>
+                        <p>Follow our journey and get inspired by our latest creations</p>
+                        <div class="social-links-large">
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-dribbble"></i>
+                                <span>Dribbble</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-behance"></i>
+                                <span>Behance</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <div class="contact-form-container">
+                        <div class="form-header">
+                            <h3>Quest Registration Form</h3>
+                            <p>Tell us about your design adventure</p>
+                        </div>
+                        
+                        <form class="contact-form" id="contact-form">
+                            <!-- Personal Information Section -->
+                            <div class="form-section">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="text" id="firstName" name="firstName" required>
+                                        <label for="firstName">First Name</label>
+                                        <div class="input-glow"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="lastName" name="lastName" required>
+                                        <label for="lastName">Last Name</label>
+                                        <div class="input-glow"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Your Email</label>
+                                    <div class="input-glow"></div>
+                                </div>
+                                
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="tel" id="phone" name="phone">
+                                        <label for="phone">Phone Number (Optional)</label>
+                                        <div class="input-glow"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="company" name="company">
+                                        <label for="company">Organization (Optional)</label>
+                                        <div class="input-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Details Section -->
+                            <div class="form-section">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <select id="service" name="service" required>
+                                            <option value="">Select Your Quest Type</option>
+                                            <option value="logo">Logo Design - $299</option>
+                                            <option value="brand">Brand Identity - $799</option>
+                                            <option value="creative">Creative Design - $199</option>
+                                            <option value="poster">Poster Design - $149</option>
+                                            <option value="collage">Photo Collage - $99</option>
+                                            <option value="greeting">Greeting Cards - $49</option>
+                                            <option value="invitation">Invitations - $79</option>
+                                            <option value="business">Business Cards - $89</option>
+                                            <option value="ideas">Creative Consultation - $149</option>
+                                            <option value="custom">Custom Project</option>
+                                        </select>
+                                        <label for="service">Service Type</label>
+                                        <div class="input-glow"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <select id="budget" name="budget">
+                                            <option value="">Select Your Budget Range</option>
+                                            <option value="under-500">Under $500</option>
+                                            <option value="500-1000">$500 - $1,000</option>
+                                            <option value="1000-2500">$1,000 - $2,500</option>
+                                            <option value="2500-5000">$2,500 - $5,000</option>
+                                            <option value="5000-plus">$5,000+</option>
+                                        </select>
+                                        <label for="budget">Budget Range</label>
+                                        <div class="input-glow"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <select id="timeline" name="timeline">
+                                        <option value="">Select Timeline</option>
+                                        <option value="urgent">ASAP (Rush Fee Applies)</option>
+                                        <option value="1-week">Within 1 Week</option>
+                                        <option value="2-weeks">Within 2 Weeks</option>
+                                        <option value="1-month">Within 1 Month</option>
+                                        <option value="flexible">Flexible Timeline</option>
+                                    </select>
+                                    <label for="timeline">Project Timeline</label>
+                                    <div class="input-glow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Project Description Section -->
+                            <div class="form-section">
+                                <div class="form-group">
+                                    <textarea id="message" name="message" rows="6" required></textarea>
+                                    <label for="message">Tell Us About Your Vision</label>
+                                    <div class="input-glow"></div>
+                                    <div class="textarea-helper">
+                                        Describe your project, goals, style preferences, and any specific requirements.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-submit-section">
+                                <button type="submit" class="submit-btn">
+                                    <span class="btn-text">Initiate Quest</span>
+                                    <div class="btn-glow"></div>
+                                    <i class="fas fa-rocket btn-icon"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Quests</h2>
+                <p class="section-subtitle">Answers to common questions from fellow hunters</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How long does a typical design quest take?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most projects take 1-3 weeks depending on complexity. Logo designs typically take 5-7 days, while complete brand identities may take 2-3 weeks. We'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What's included in your design packages?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All packages include initial concepts, revisions, final files in multiple formats (AI, EPS, PNG, JPG), and usage guidelines. Brand identity packages also include color palettes, typography guides, and brand standards.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you offer revisions?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Each package includes multiple revision rounds. We work collaboratively to ensure your vision is perfectly realized. Additional revisions beyond the package limit are available at our standard hourly rate.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What if I need rush delivery?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer expedited delivery for urgent projects. Rush fees apply based on the timeline and project complexity. Contact us to discuss your specific needs and timeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Unleash Your Brand's Power?</h2>
+                <p>Every legend starts with a single step. Take yours today.</p>
+                <div class="cta-buttons">
+                    <a href="#contact-form" class="cta-button">
+                        <span class="btn-text">Start Your Quest</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="gallery.html" class="cta-button secondary">
+                        <span class="btn-text">View Our Work</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Messenger -->
+    <div class="floating-messenger" id="messenger">
+        <div class="messenger-icon">
+            <i class="fas fa-comments"></i>
+            <div class="pulse-ring"></div>
+        </div>
+        <div class="messenger-tooltip">Chat with us!</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">AuraForm Studio</span>
+                    </div>
+                    <p class="footer-desc">Unleashing creativity through legendary design mastery.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AuraForm Studio. All rights reserved. | Designed with ⚡ power</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraForm Studio - Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-glow">
+                    <span class="logo-text">AuraForm Studio</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="page-title">Gallery of Conquests</h1>
+                <p class="page-subtitle">Witness the power of our creative mastery</p>
+                <div class="breadcrumb">
+                    <a href="home.html">Home</a> <span>/</span> <span>Gallery</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="logo">Logos</button>
+                <button class="filter-btn" data-filter="brand">Branding</button>
+                <button class="filter-btn" data-filter="poster">Posters</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="creative">Creative</button>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Gallery items will be dynamically generated -->
+            </div>
+            
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="load-more-btn" id="load-more">
+                    <span class="btn-text">Summon More Creations</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Legendary Projects</h2>
+                <p class="section-subtitle">Our most epic design conquests</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-project">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/00bfff?text=Epic+Brand+Campaign" alt="Epic Brand Campaign">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Epic Brand Campaign</h3>
+                                <p>Complete brand transformation for a tech startup</p>
+                                <div class="project-tags">
+                                    <span>Branding</span>
+                                    <span>Logo Design</span>
+                                    <span>Web Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-project">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/9d4edd?text=Mystic+Event+Poster" alt="Mystic Event Poster">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Mystic Event Poster</h3>
+                                <p>Legendary poster design for music festival</p>
+                                <div class="project-tags">
+                                    <span>Poster Design</span>
+                                    <span>Event Marketing</span>
+                                    <span>Creative</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-project">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/00ffff?text=Hunter+Web+Portal" alt="Hunter Web Portal">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Hunter Web Portal</h3>
+                                <p>Next-generation web design with epic animations</p>
+                                <div class="project-tags">
+                                    <span>Web Design</span>
+                                    <span>UI/UX</span>
+                                    <span>Animation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Words from Fellow Hunters</h2>
+                <p class="section-subtitle">What our clients say about our legendary work</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"AuraForm Studio transformed our brand from E-rank to S-rank! Their designs are absolutely legendary."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="client-details">
+                                <h4>Sarah Chen</h4>
+                                <span>CEO, TechVision Inc.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The creative power they unleashed on our project was beyond our wildest expectations. True design hunters!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="client-details">
+                                <h4>Marcus Rivera</h4>
+                                <span>Creative Director, Nexus Media</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Working with AuraForm was like having a guild of master designers. Every detail was perfection."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="client-details">
+                                <h4>Elena Kowalski</h4>
+                                <span>Founder, Artisan Brands</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Create Your Next Masterpiece?</h2>
+                <p>Join the ranks of legendary brands and transform your vision into reality.</p>
+                <a href="contact.html" class="cta-button">
+                    <span class="btn-text">Begin Your Quest</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Messenger -->
+    <div class="floating-messenger" id="messenger">
+        <div class="messenger-icon">
+            <i class="fas fa-comments"></i>
+            <div class="pulse-ring"></div>
+        </div>
+        <div class="messenger-tooltip">Chat with us!</div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">AuraForm Studio</span>
+                    </div>
+                    <p class="footer-desc">Unleashing creativity through legendary design mastery.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AuraForm Studio. All rights reserved. | Designed with ⚡ power</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

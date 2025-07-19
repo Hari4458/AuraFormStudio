@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraForm Studio - Redirecting...</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #0a0a0a, #1a1a1a);
+            font-family: 'Orbitron', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #00bfff;
+        }
+        
+        .redirect-message {
+            text-align: center;
+            animation: glow 2s ease-in-out infinite;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(0, 191, 255, 0.3);
+            border-top: 3px solid #00bfff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes glow {
+            0%, 100% { text-shadow: 0 0 20px rgba(0, 191, 255, 0.5); }
+            50% { text-shadow: 0 0 30px rgba(0, 191, 255, 0.8); }
+        }
+    </style>
+    <script>
+        // Redirect to home page after 2 seconds
+        setTimeout(() => {
+            window.location.href = 'home.html';
+        }, 2000);
+    </script>
+</head>
+<body>
+    <div class="redirect-message">
+        <div class="loading-spinner"></div>
+        <h2>AuraForm Studio</h2>
+        <p>Awakening the design realm...</p>
+    </div>
+</body>
+</html>
