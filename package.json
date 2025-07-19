@@ -1,0 +1,12 @@
+{
+  "name": "static-website",
+  "version": "1.0.0",
+  "description": "A static HTML/CSS/JavaScript website",
+  "scripts": {
+    "build": "echo 'No build step required for static site' && exit 0",
+    "dev": "echo 'Open index.html in your browser to view the site'"
+  },
+  "keywords": ["html", "css", "javascript", "static"],
+  "author": "",
+  "license": "MIT"
+}
